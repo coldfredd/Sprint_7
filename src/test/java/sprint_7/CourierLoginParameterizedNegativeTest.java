@@ -18,7 +18,7 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class CourierLoginParameterizedNegativeTest extends AbstractTest{
-    private CourierSteps courierSteps = new CourierSteps();
+    private final CourierSteps courierSteps = new CourierSteps();
     private Courier courier;
 
     private final String login;

@@ -12,7 +12,7 @@ import sprint_7.model.Courier;
 import sprint_7.steps.CourierSteps;
 
 public class CourierLoginNegativeTest extends AbstractTest{
-    private CourierSteps courierSteps = new CourierSteps();
+    private final CourierSteps courierSteps = new CourierSteps();
     Courier courier;
 
     @Before

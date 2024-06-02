@@ -20,7 +20,7 @@ public class CourierCreatParameterizedNegativeTest extends AbstractTest {
 
     private final String login;
     private final String password;
-    private CourierSteps courierSteps = new CourierSteps();
+    private final CourierSteps courierSteps = new CourierSteps();
     private Courier courier;
 
     public CourierCreatParameterizedNegativeTest(String login, String password) {

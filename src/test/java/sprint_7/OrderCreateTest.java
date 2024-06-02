@@ -17,8 +17,8 @@ import static org.hamcrest.core.IsNull.notNullValue;
 
 @RunWith(Parameterized.class)
 public class OrderCreateTest extends AbstractTest {
-    private String color1;
-    private String color2;
+    private final String color1;
+    private final String color2;
 
     public OrderCreateTest(String color1, String color2) {
         this.color1 = color1;

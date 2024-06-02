@@ -14,7 +14,7 @@ import sprint_7.steps.CourierSteps;
 
 
 public class CourierCreatTest extends AbstractTest {
-    private CourierSteps courierSteps = new CourierSteps();
+    private final CourierSteps courierSteps = new CourierSteps();
     Courier courier;
 
     @Before

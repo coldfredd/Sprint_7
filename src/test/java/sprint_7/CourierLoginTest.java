@@ -13,7 +13,7 @@ import sprint_7.steps.CourierSteps;
 import static org.hamcrest.core.IsNull.notNullValue;
 
 public class CourierLoginTest extends AbstractTest {
-    private CourierSteps courierSteps = new CourierSteps();
+    private final CourierSteps courierSteps = new CourierSteps();
     Courier courier;
 
     @Before
